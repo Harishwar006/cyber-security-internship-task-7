@@ -1,0 +1,90 @@
+Task 7: Identify and Remove Suspicious Browser Extensions
+
+ Objective
+
+The objective of this task is to identify installed browser extensions, analyze their permissions, and remove any suspicious or unnecessary extensions to improve browser security awareness.
+
+---
+
+Tools Used
+
+Google Chrome (Kali Linux)
+
+Chrome Extensions Manager (chrome://extensions)
+
+---
+
+ Extensions Identified
+
+During the inspection, the following extensions were found installed in the browser:
+
+1)Google Docs Offline
+
+Purpose: Allows viewing and editing Google Docs, Sheets, and Slides without internet access
+
+Version: 1.99.1
+
+Permissions:
+
+Read and change data on Google Docs and Google Drive sites
+
+
+Assessment: Legitimate and safe (Official Google extension)
+
+
+2) Adobe Acrobat: PDF edit, convert, sign tools
+
+Purpose: View, edit, convert, and sign PDF files in the browser
+
+Version: 25.12.1.2
+
+Permissions:
+
+Read browsing history
+
+Manage downloads
+
+Communicate with native applications
+
+
+Assessment: Legitimate and trusted (Official Adobe extension)
+
+---
+
+Security Analysis
+
+Both extensions are from trusted vendors (Google & Adobe)
+
+Permissions requested are relevant to their functionality
+
+No unknown, unused, or suspicious extensions were detected
+
+---
+
+Research: How Malicious Extensions Harm Users
+
+Malicious browser extensions can:
+
+Steal passwords and personal data
+
+Track browsing activity
+
+Inject unwanted advertisements
+
+Redirect users to malicious websites
+
+Slow down system performance
+
+---
+
+Final Summary
+
+Total extensions reviewed: 2
+
+Malicious extensions found: None
+
+Suspicious extensions: None
+
+Overall browser security status: Safe
+
+---
